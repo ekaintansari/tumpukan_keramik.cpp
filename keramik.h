@@ -12,3 +12,10 @@ int kosong(){
     return 0;
 }
 
+int penuh(){
+  if(T.atas==max-1)
+    return 1;
+  else
+    return 0;
+}
+
