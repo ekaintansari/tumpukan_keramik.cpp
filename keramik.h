@@ -25,3 +25,10 @@ void input(string data){
     T.data[T.atas]=data;
     cout<<"Keramik"<<T.data[T.atas]<<"masuk ke Tumpukan\n";
   }
+else
+  if(penuh()==0){
+    T.atas++;
+    T.data[T.atas]=data;
+    cout<<"Keramik"<<T.data[T.atas]<<"masuk ke Tumpukan\n";
+  }
+}
